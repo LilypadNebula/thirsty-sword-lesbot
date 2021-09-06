@@ -3,8 +3,8 @@ import {APIEmbed, APIInteractionResponseChannelMessageWithSource} from 'https://
 
 export default (): APIInteractionResponseChannelMessageWithSource => {
   const embed: APIEmbed = {
-    "title": `njknlnlnl`,
-    "description": `huiiubvyyuguygbhjlblhjkbjlkbhljblhbhjbhbhbhbhjbhblbklbklblbyulbylbhlbhlblibilbuilbuilbiulbuilbuilbilbilbuibuibuibiulbi`,
+    "title": `Get It`,
+    "description": `When you want it, you get it, cause you hot`,
     "color": 0x00FFFF,
     "fields": [
       {
