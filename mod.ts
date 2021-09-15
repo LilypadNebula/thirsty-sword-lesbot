@@ -55,7 +55,8 @@ async function home(request: Request) {
   // It implies that a user has issued a command.
   if (type === 2 ) {
     const {data} = interaction as APIChatInputApplicationCommandInteraction
-    const response = commands[data.name](data)
+    const params = data.options
+    const response = await commands[data.name](params)
 
     return json(response);
   }
