@@ -2,11 +2,31 @@ transform:
   name: Transform
   playbook: The Beast
   text: "You have a bestial form, which you can assume at will and must assume whenever your Feral hits 4. When you do, tell everyone what the beast in you looks like, increase your Feral to 4 if it’s not there already, and roll +Daring:
-10+: Choose 2 
-7–9: Choose 1
-- You are in harmony with your beast and may clear a Condition
-- You are magnificent and little escapes your notice; you gain leverage or an opportunity with a monster
-- Pain is nothing to you; ignore the next time you would Stagger while transformed
-- You can move in ways no ordinary person could
-You revert to your usual form when your Feral drops below 4. While transformed,
-you may mark a Condition to avoid reducing your Feral, as often as you like."
+\n10+: Choose 2 
+\n7–9: Choose 1
+\n- You are in harmony with your beast and may clear a Condition
+\n- You are magnificent and little escapes your notice; you gain leverage or an opportunity with a monster
+\n- Pain is nothing to you; ignore the next time you would **Stagger** while transformed
+\n- You can move in ways no ordinary person could
+\nYou revert to your usual form when your Feral drops below 4. While transformed, you may mark a Condition to avoid reducing your Feral, as often as you like."
+big dyke energy:
+  name: Big Dyke Energy
+  playbook: The Beast
+  text: When you make it clear to your foes that you’re the biggest threat, then for the rest of the scene, whenever you roll a 10+, you may choose
+someone present to be impressed or intrigued with you. Once during the scene, when you gain a String on someone, gain an additional String on someone else who considers you an enemy.
+ferocious:
+  name: Ferocious
+  playbook: The Beast
+  text: When you **Fight**, you may mark a Condition to choose an additional option, even on a 6-.
+shameless:
+  name: Shameless
+  playbook: The Beast
+  text: When you say aloud what you want from an NPC, you may give them a String on you to ask a question about them from the **Figure Out a Person** move.
+tenacious purpose:
+  name: Tenacious Purpose
+  playbook: The Beast
+  text: When you commit yourself to a specific goal, you may ask the GM once per scene how you could advance that goal in a way that violates “civilized” norms. Take +1 forward to act on the answer. If you refrain, it counts as an uncomfortable situation that reduces your Feral by 1 and you must mark a Condition.
+tracker:
+  name: Tracker
+  playbook: The Beast
+  text: When you investigate a person’s living space, camp, or trail, or an object important to them, you can roll +Heart instead of +Wit to **Figure Them Out**, and may do so even when they’re not present. You can also ask the question, “Where did they go?” as if it were an option on the list for that move. On a 7–9, they take a String on you instead of asking a question back. Say why. Do they just smell that good or that fearsome?
