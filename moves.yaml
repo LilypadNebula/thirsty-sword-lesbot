@@ -29,3 +29,78 @@ tracker:
   name: Tracker
   playbook: The Beast
   text: When you investigate a person’s living space, camp, or trail, or an object important to them, you can roll +Heart instead of +Wit to **Figure Them Out**, and may do so even when they’re not present. You can also ask the question, “Where did they go?” as if it were an option on the list for that move. On a 7–9, they take a String on you instead of asking a question back. Say why. Do they just smell that good or that fearsome?
+the fated day approaches:
+  name: The Fated Day Approaches
+  playbook: The Chosen
+  text: "Whenever you miss an opportunity to make progress towards your Destiny, choose 1:
+        \na Someone with power over you makes an uncomfortable demand in furtherance
+        \nof your Destiny, backed by a threat
+        \naThe PC you care about the most receives bad news or has an accident serious
+        \nenough to make them **Stagger**
+        \nThe GM will tell you the details, inspired by your Destiny. They may wait until a lull
+        \nin the action to drop the consequences on you."
+dont you know who i am:
+  name: Don't You Know Who I Am?
+  playbook: The Chosen
+  text: "When you meet someone who knows you by
+        \nreputation (you decide), roll +Heart:
+        \n10+: Say two things they’ve heard about you 
+        \n7–9: You say one, the GM says one"
+entourage:
+  name: Entourage
+  playbook: The Chosen
+  text: "You have a group of loyal attendants. Name three of them who accompany you and choose a trait for them: Dangerous, Fanatical, Resourceful, Charming
+        \nChoose a basic move. Your entourage grants you a +1 on rolls for this move when present. When you would **Stagger**, you may choose instead for one of your named Entourage to die. If you do, your Entourage gains a String on you."
+gossip:
+  name: Gossip
+  playbook: The Chosen
+  text: "When you seek insight about a person by spending some time gossiping with those who know them, roll +Wit:
+        \n10+: You learn a dangerous secret and gain a String on the target. You may also ask a question from the **Figure Out a Person** move.
+        \n7–9: You may ask a question from the **Figure Out a Person** move.
+        \nSomeone you speak to who is dangerous to you may ask a question of you from the same list."
+guidance from above:
+  name: Guidance From Above
+  playbook: The Chosen
+  text: When you petition a superior for guidance, they give you instructions and useful information. Mark XP or clear a Condition if you do as commanded. They gain a String on you if you do otherwise.
+help me:
+  name: Help Me--!
+  playbook: The Chosen
+  text: You’re a magnet for trouble and hunted by those who would use you for their own purposes. Others mark XP when they Defy Disaster that would otherwise befall you. In addition, whenever you’re captured, your captor reveals something they hope to achieve; gain a String on them and mark XP.
+know your place:
+  name: Know Your Place!
+  playbook: The Chosen
+  text: "When someone dares insult you and you deliver a scathing retort, roll +Wit:
+        \n10+: Word spreads of your sharp wit, take +1 forward, and they choose 1 7–9: They choose 1
+        \nBack down
+        \nMake a fool of themself 
+        \nAttack you"
+fanatical selfsacrifice:
+  name: Fanatical Self-Sacrifice
+  playbook: The Devoted
+  text: You may mark a Condition to prevent a Condition being inflicted on another. When you do, mark XP, and you may only clear that Condition by taking the associated destructive action. Mark it with an asterisk to remind yourself. Also, your Conditions only cause a –1 penalty to the associated basic moves (instead of –2).
+for the cause:
+  name: For The Cause
+  playbook: The Devoted
+  text: When you **Fight** the enemy of your Devotion, you can suffer a Condition to choose an additional option from the **Fight** move, even if you roll a 6-. You can inflict a Condition a second time within a single **Fight** move this way.
+gallant rescue:
+  name: Gallant Rescue
+  playbook: The Devoted
+  text: "When you **Defy Disaster** that’s about to befall someone else, you can either gain a String on them or ask one of the following questions, even if you roll a 6-. You can only gain one String per scene in this way on any given person. 
+        \nHow do you feel about my Devotion?
+        \nWhat secret pain lies in your heart?"
+power of conviction:
+  name: Power Of Conviction
+  playbook: The Devoted
+  text: When you **Entice** someone while extolling the virtues of your Devotion or invoking its authority, you may roll +Spirit instead of +Heart. A superior in your Devotion gains a String on you, representing your dependence.
+lay on hands:
+  name: Lay on Hands
+  playbook: The Devoted
+  text: "When you touch someone as part of **Emotional Support**, you heal their physical ailments. Tell them how your Devotion sustains you; they mark an XP if they validate your Devotion, and you gain a String on them if they criticize it."
+loyal steed:
+  name: Loyal Steed
+  playbook: The Devoted
+  text: ame your steed and detail two strengths and two weaknesses from the following list. When riding your steed, you may roll +Spirit instead of +Daring to **Fight** and may take a person with you whenever you **Defy Disaster**.
+toxic devotion:
+  name: Toxic Devotion
+  playbook: The Devoted
+  text: "Once per scene, when you forgive your Devotion for abusing you or make excuses for obvious problems with your Devotion, take +1 forward or mark XP. Also, once per scene, when you learn that another PC thinks your Devotion is problematic and you don’t defend it, mark a Condition and give them a String on you."
