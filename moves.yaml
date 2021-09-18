@@ -190,3 +190,172 @@ natures touch:
         \nThey may give you a String on them to clear a Condition
         \nThey gain the ability to speak with plants and animals for the rest of the scene
         \nThey must answer one of the Figure Out a Person questions of your choice or else they take a Condition"
+lust at first sight:
+  name: Lust at First Sight
+  playbook: The Scoundrel
+  text: When you become **Smitten** with someone you barely know, declare your undying love and give them a String on you. Lose your **Smitten** status with anyone who has no Strings on you. Take +1 forward to any act you think might impress your new interest.
+shiny and new:
+  name: Shiny and New
+  playbook: The Scoundrel
+  text: When you give or receive **Emotional Support** in an intimate moment with someone new, you each mark XP or clear a Condition.
+better to seek forgiveness:
+  name: Better to Seek Forgiveness
+  playbook: The Scoundrel
+  text: "When you apologize to someone for your outrageous conduct and put yourself at their mercy, roll +Daring:
+        \n10+: You find out what it will take for them to forgive you and you each gain a String on the other. If they forgive you, you each clear a Condition.
+        \n7–9: You find out what it will take for them to forgive you. If you do it, you either take Strings on each other or they may clear a Condition, your choice."
+fools rush in:
+  name: Fools Rush In
+  playbook: The Scoundrel
+  text: When you vault into a situation without forethought and wind up way over your head, give someone dangerous to you a String, mark XP, and take +1 forward to **Defy Disaster**.
+impressive swordplay:
+  name: Impressive Swordplay
+  playbook: The Scoundrel
+  text: Whenever you roll a 7+ to **Fight**, you may gain a String on someone who is present and ask their player what it is about you that has impressed or intrigued them.
+the main attraction:
+  name: The Main Attraction
+  playbook: The Scoundrel
+  text: "When you make a dramatic entrance, roll +Grace:
+        \n10+: Choose 2
+        \n7-9: Choose 1
+        \nAll attention is focused on you for a moment
+        \nYou hold the attention of one person for as long as you deliver a dramatic speech
+        \nTake a String on someone present aYou take +1 forward"
+one in every port:
+  name: One in Every Port
+  playbook: The Scoundrel
+  text: "When you return to any town you’ve been to before, name a person with whom you shared intimacy here and say how you left things. If you left on bad terms, mark XP and the GM will tell you something interesting that has changed since you were last here."
+rrrip:
+  name: Rrrip!
+  playbook: The Scoundrel
+  text: When you take or narrowly evade a physical blow from someone dangerous to you, you may declare that your clothes were damaged and are now practically indecent. For the remainder of the scene, when you roll a 10+ on any move against an NPC, you may declare that they have a crush on you (up to one NPC per roll and subject to GM discretion). Additionally, any PC who becomes **Smitten** with you during the remainder of the scene may mark XP.
+people are people:
+  name: People Are People
+  playbook: The Seeker
+  text: "When you talk about your home, roll +Heart: 10+: Choose 2
+        \n7–9: Choose 1
+        \nAdmit a flaw about your home; gain +1 forward
+        \nShare something good about your home; clear a Condition aLie about your home to impress a listener; take a String on them"
+hear me:
+  name: Hear Me!
+  playbook: The Seeker
+  text: "When you shout one of your Convictions aloud in confrontation with those who hold a contrary belief, roll +Daring:
+        \n10+: Ask 2 7–9: Ask 1
+        \nWhy do you think you must follow that belief? 
+        \nWhat does it cost you to follow that belief?
+        \nWhat do you wish for that is contrary to that belief?"
+it wasnt all bad:
+  name: It Wasn't All Bad
+  playbook: The Seeker
+  text: "When you encounter someone whose perspective is different from that of your companions, share a relevant story from your home culture and roll +Spirit:
+        \n10+: Gain a String on them and either take +1 forward to interact with them or grant that +1 forward to a companion
+        \n7–9: Gain a String on them
+        \nIn either case, they also tell you something interesting or useful about their upbringing."
+listen and learn:
+  name: Listen and Learn
+  playbook: The Seeker
+  text: "When you ask someone what you should do in an unfamiliar situation:
+        \nIf you follow their advice, take +1 forward and clear a Condition
+        \nIf you follow their advice and it goes poorly, mark XP"
+proper courtship:
+  name: Proper Courtship
+  playbook: The Seeker
+  text: "When you’re Smitten with someone and perform an elaborate and roundabout courtship ritual...
+        \nIf the recipient responds properly, you each get +1 forward to protect each other until either of you breaks a Commandment, and they gain a point of Tradition that they can spend for the same effects you can
+        \nIf they don’t understand that you’re **Smitten**, give a String to an onlooker who does understand"
+silly tourist: 
+  name: Silly Tourist
+  playbook: The Seeker
+  text: "When you **Figure Out a Person** or **Defy Disaster** by playing the fool, you may additionally ask a question from this list, even on a 6-: 
+        \nWhat would make you laugh?
+        \nWhat hidden threat or opportunity am I missing?
+        \nHow are you vulnerable?"
+stiff upper lip:
+  name: Stiff Upper Lip
+  playbook: The Seeker
+  text: You can spend a point of Tradition to ignore the -2 penalty caused by Conditions. This effect ends if you violate a Commandment or at the end of the scene. When the effect ends, take a Condition.
+i like snails:
+  name: I Like Snails!
+  playbook: The Spooky Witch
+  text: "When you are **Smitten** with someone and **Figure Them Out**, blurt out something weird and let them ask you a question from the list. Then ask them another question from the list, even on a 6-."
+astral dance:
+  name: Astral Dance
+  playbook: The Spooky Witch
+  text: "When you dance across the boundary into the realm beyond, describe it and roll +Grace:
+        \n10+: You and a small number of others who dance with you arrive at a distant destination of your choice.
+        \n7–9: You don’t arrive where you intend, you arrive almost too late, or you lose something important in the process. The GM will tell you which."
+divination:
+  name: Divination
+  playbook: The Spooky Witch
+  text: "When you have time and safety to read the unseen truth of someone present, describe your divination process and what makes it conspicuous. The GM will tell you something interesting about the person or the obstacles they face that they don’t know. Then roll +Spirit:
+        \n10+: If you tell the truth, they clear a Condition. If you lie, gain a String on them.
+        \n7–9: They learn the truth and clear a Condition."
+dreamwalk:
+  name: Dreamwalk
+  playbook: The Spooky Witch
+  text: When you touch an unconscious, sleeping, or willing subject, you can see an impression of their thoughts and appear in their dreams. You may roll +Spirit to **Figure Out** or **Entice** them in this state.
+eerie companion:
+  name: Eerie Companion
+  playbook: The Spooky Witch
+  text: You have a little pet monster or spirit. Choose two basic moves. The companion grants you +1 to these moves when it assists you, but its assistance is always obvious and alarming to ordinary people. In addition, you can speak with monsters.
+friends in weird places:
+  name: Friends in Weird Places
+  playbook: The Spooky Witch
+  text: "You are friends with some odd people. Folx that others might not consider people at all...
+        \nName three of them. For each one, write down one thing they’re good at, one reason why everyone else is afraid of them, and what you like to do together when you hang out.
+        \nWhen you call on them for help, the GM tells you what they provide. Give them a String on you and mark the Favor next to their name. Whenever significant time passes, one of your friends with marked Favor will need help from you. Clear their Favor if you help, mark a Condition if you don’t."
+talk nerdy to me:
+  name: Talk Nerdy to Me
+  playbook: The Spooky Witch
+  text: You may roll +Wit instead of +Heart to **Entice** someone. In addition, choose an area of study that holds special interest for you. You have top-tier knowledge of this area and are always prepared with an interesting fact, and sometimes even a useful fact, when you come across something within your expertise. The GM will provide the information or invite you to make something up.
+witchfire:
+  name: Witchfire
+  playbook: The Spooky Witch
+  text: You may roll +Spirit instead of +Daring to **Fight**, but you’re very conspicuous when you do. The consequences of a 6- will be severe.
+ew feelings:
+  name: Ew, Feelings
+  playbook: The Trickster
+  text: When someone offers you **Emotional Support** and you refuse to open up, increase your Feelings by 1 and choose 1 from the listed options for that move as if they rolled 7–9. If they rolled 10+, they know they got through to you; they gain the benefits of a 10+ result as if you had opened up.
+the mask:
+  name: The Mask
+  playbook: The Trickster
+  text: "When you seek to persuade an NPC of a lie about yourself, roll +Wit: 
+        \n10+: Choose 2
+        \n7–9: Choose 1
+        \nThey believe a big lie
+        \nThe lie you have chosen is unexpectedly perfect, creating a new opportunity 
+        \nThey give you the benefit of the doubt and remain convinced even if thereis some evidence of your lie
+        \nAdditionally, whenever a PC Figures You Out, you can give false answers. You must increase your Feelings by 1 at the end of any scene where you do this."
+center of the web:
+  name: The Mask
+  playbook: The Trickster
+  text: "When someone approaches you to get something from you or threaten you, choose 1:
+        \nGain a String on them or they lose a String on you
+        \nAsk them a question from the **Figure Out a Person** move
+        \n+1 ongoing against them for the scene"
+deft fingers:
+  name: Deft Fingers
+  playbook: The Trickster
+  text: "When you filch something from a person, roll +Grace: 
+        \n10+: Choose 2
+        \n7–9: Choose 1
+        \nThe item reveals a secret love or vulnerability
+        \nThe item creates an opportunity (such as a map, key, or note) aThe person doesn’t know you took it"
+devious scheme:
+  name: Devious Scheme
+  playbook: The Trickster
+  text: "When others go along with your cunning plan, roll +Wit: 
+        \n10+: Twice during your plan, you may choose 1
+        \n7–9: Once during your plan, you may choose 1
+        \nProduce just the right object
+        \nDescribe an unexpected weakness in an obstacle aAppear right behind someone at a crucial moment"
+knives behind the mask:
+  name: Knives Behind the Mask
+  playbook: The Trickster
+  text: When someone reveals a secret about you in your presence, you’re prepared with a damaging secret about them. If you reveal it now in retaliation, they mark a Condition. If you keep the secret for the time being, gain a String on them.
+play the part:
+  name: play the part
+  playbook: The Trickster
+  text: "When you use someone else’s personal item or clothing to disguise yourself as them, roll +Daring:
+        \n10+: While you remain so dressed, your disguise is perfect; only your words or deeds may expose you.
+        \n7–9: Someone sees through your disguise, but they don’t give you away just yet. Give them a String."

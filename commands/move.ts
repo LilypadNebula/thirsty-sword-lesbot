@@ -25,7 +25,6 @@ export default async (params: APIApplicationCommandInteractionDataOptionWithValu
     embed.description = `Could not find a move with the name '${name}', could you check that you typed it correctly? In the future this will show you potential moves that you meant, but Lily isn't there yet`
     embed.color = 0xF32E2E
   }
-  const foundMove = moves[name]
   const response: APIInteractionResponseChannelMessageWithSource = {
     type: 4,
     data: {
