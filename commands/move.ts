@@ -3,7 +3,8 @@ import {parse} from 'https://deno.land/std/encoding/yaml.ts'
 import {Move} from '../types.ts'
 
 export default async (params: APIApplicationCommandInteractionDataOptionWithValues[]): Promise<APIInteractionResponseChannelMessageWithSource> => {
-  const name = params[0].value as string
+  const enteredName = params[0].value as string
+  const name = enteredName.toLowerCase().replace(/[^a-zA-Z ]/g, "")
   const contents = await Deno.readTextFile('moves.yaml')
   const moves = parse(contents) as Record<string, Move>
   const embed: APIEmbed = {

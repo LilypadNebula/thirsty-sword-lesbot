@@ -11,3 +11,12 @@ Deno.test({
     assertEquals(foundMoveResponse.data.embeds[0].fields[0].value, 'The Beast')
   }
 })
+
+Deno.test({
+  name: 'converts typed to lowercase without special characters',
+  fn: async (): Promise<void> => {
+    const first = await move([{name: 'name', value:'dont you know who i am', type: 3}])
+    const other = await move([{name: 'name', value:"Don't You know WHO I AM", type: 3}])
+    assertEquals(other, first)
+  }
+})
