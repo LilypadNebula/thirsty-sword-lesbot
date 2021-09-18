@@ -359,3 +359,159 @@ play the part:
   text: "When you use someone else’s personal item or clothing to disguise yourself as them, roll +Daring:
         \n10+: While you remain so dressed, your disguise is perfect; only your words or deeds may expose you.
         \n7–9: Someone sees through your disguise, but they don’t give you away just yet. Give them a String."
+im the juggernaut love:
+  name: I'm the Juggernaut, Love!
+  playbook: The Bloody
+  text: "When you first mark a Condition during a physical conflict, you may upgrade your next **Fight** roll from a down beat to a mixed beat, or from a mixed beat to an up beat. When you do, answer one of these questions:
+        \nHow does this conflict add to your reputation?
+        \nYou see fear in an enemy’s eyes. How does it make you feel?
+        \nTo strike against your opponent, you leave something else open. What is it?
+        \nYou feel invincible. What reminds you that you’re painfully mortal?
+        \nIf the **Fight** is rolled is against another PC, answer one of these instead: 
+        \nWhat does this conflict mean to you?
+        \nWhat would you rather be doing than fighting?"
+among wolves:
+  name: Among Wolves
+  playbook: The Bloody
+  text: "During a physical conflict, when you **Figure Out a Person**, you may roll +Spirit rather than +Wit. When you do, you may ask an additional question from **The Heart that Wields the Blade**, even on a 6-."
+better bundle up:
+  name: Better Bundle Up
+  playbook: The Bloody
+  text: "When you give blunt but honest advice, roll +Spirit: 
+        \n10+: They value your direct advice; you gain a String on them and they take +1 forward to act on your advice
+        \n7–9: They may choose 1, or else give you a String on them
+        \nPoint out a flaw they see in your thinking
+        \nAct contrary to your advice to show why you’re wrong"
+hows that milkshake taste:
+  name: How's that Milkshake Taste?
+  playbook: The Bloody
+  text: "When dealing with a threat to your community, but not yet engaged in physical conflict, you may take a harmless action designed to wound their pride (like throwing a drink over them). When you do, roll +Daring: 
+        \n10+: Choose 2
+        \n7–9: Choose 1
+        \nThey become flustered and retreat
+        \nTheir allies see them as a fool, and they lose critical support
+        \nThey become enraged and try to come for you; take a +1 forward to **Fight** move against them"
+ive seen things you wouldnt believe:
+  name: I've Seen Things You Wouldn't Believe
+  playbook: The Bloody
+  text: "When you roll **Emotional Support**, you may share a story of something you’ve seen or done that you think will help. If you do, they answer this question:
+        \nDoes hearing about my past help you?
+        \nIf they answer yes, you may clear a Condition, even on a 6-. If they answer no, lose a String you have on them or mark a Condition."
+wolf and cub:
+  name: Wolf and Cub
+  playbook: The Bloody
+  text: Once per session, you may declare your intent to protect someone or something of great value to you. You take +1 forward for actions taken to fulfill that promise. Once per session, when the object of your protection would take a Condition or be harmed, you may take a Condition instead.
+mirror ball:
+  name: Mirror Ball
+  playbook: The Dream Mirror
+  text: "When others **Influence with a String** to encourage you to dazzle an audience, describe your performance and roll +Heart:
+        \n10+: You each choose 1
+        \n7–9: The influencer chooses 1
+        \nYour audience is rapt and, optionally, interested in the influencer’s perspectives or culture.
+        \nFeelings and sensations linger. For the next scene, a spec- tator may avoid taking one Condition by thinking about your performance.
+        \nYou get +1 forward to **Entice** while performing. Optionally, the influencer gets credit for the performance."
+antique:
+  name: Antique
+  playbook: The Dream Mirror
+  text: "Choose an aesthetic and past.
+        \n**Aesthetic**: Vintage, fairytale, unusual parts, signs of wear 
+        \n**Past**:
+        \nYou were once close to someone. Why are they no longer around? a You’re obsolete. Who or what replaced you?
+        \nYou weren’t made to last. Why do others consider you disposable? aYou’re from a ruined or destroyed society. How did you contribute to its end?
+        \nWhen someone says or does something reminiscent of your past, if you open up to them, exchange Strings. If you don’t, take a Condition and give them a String."
+mimesis:
+  name: Mimesis
+  playbook: The Dream Mirror
+  text: "When you observe someone for a short time, you may ask one: 
+        \nWhat words would you use to say _____?
+        \nWhat would you talk about in this situation?
+        \nWhat behaviors do you find non-threatening, endearing, or desirable? 
+        \nWhom do you wish I was more similar to?"
+the new black:
+  name: The New Black
+  playbook: The Dream Mirror
+  text: "Declare a new trend, activity, event, or cultural phenomenon, and spend a String on someone influential. Each member of their group must describe what makes them want to participate. Then describe what you’ll have to hide or change about yourself if you participate"
+sorry:
+  name: Sorry~!
+  playbook: The Dream Mirror
+  text: "When your looks or behavior are unacceptable for your social role, choose 1:
+        \nGet +1 forward to **Entice** while asking forgiveness or getting self-conscious.
+        \nOffer someone a String to find the faux pas charming or endearing. aAsk for guidance or private instruction. If they agree, exchange Strings.
+        \nAsk what it would take to overlook it. If you do it, take a String on them. If you don’t, take a Condition."
+toy soldier:
+  name: Toy Soldier
+  playbook: The Dream Mirror
+  text: "When you **Fight** for someone else, roll +Heart instead of +Daring. On a 7+, they choose 1 of your options from the **Fight** list."
+synchronize:
+  name: Synchronize
+  playbook: The Ensemble
+  text: When you work together seamlessly, you can transform into a single being. Choose two features and one drawback of your synchronized form. You may change these choices whenever the nature of your relationship changes significantly. In addition, while synchronized, you may roll +Harmony instead of the usual stat for any roll, but afterwards you must subtract 1 from your Harmony. At Harmony 0, you must leave your synchronized state. You can choose to un-merge at any time unless you choose the Addictive drawback.
+compartmentalize:
+  name: Compartmentalize
+  playbook: The Ensemble
+  text: "You may spend 1 Harmony to avoid feeling each other's Conditions so keenly for a single scene. For every Condition that you have when you activate this move or take later in the scene, decide which of your selves is most keenly affected by it. For actions undertaken by your other half, you may ignore the penalty associated with that Condition, but you can’t clear the Condition through a destructive action. You are still Defeated if you would take a sixth Condition."
+public display:
+  name: Public Display
+  playbook: The Ensemble
+  text: "When you proclaim your affection for each other publicly, invent a new cute pet name and roll +Spirit:
+        \n10+: Choose 2
+        \n7–9: Choose 2 but an onlooker becomes jealous, obsessed, or concerned for one of you
+        \nAn onlooker is inspired to confess their feelings
+        \nYou warm someone's heart; they may clear a Condition if they affirm your relationship
+        \nIncrease your Harmony by 1"
+same wavelength:
+  name: Same Wavelength
+  playbook: The Ensemble
+  text: "Your selves can communicate wordlessly whenever the other is near. When you try to connect while apart, roll +Heart: 
+        \n10+: You can communicate clearly, sense each others' surroundings, and one of you can show up at the other's side even if it seems implausible. Mark a Condition to bring friends along. 
+        \n7–9: You can communicate general feelings and concepts, sense if the other is in danger, and get a general sense of where the other is."
+two heads:
+  name: Two Heads
+  playbook: The Ensemble
+  text: "When you **Figure Out a Person** together, you can allow them to ask you a question from the list in order to ask them another question, which can be any question at all, not just ones from the list."
+well actually:
+  name: Well, Actually
+  playbook: The Ensemble
+  text: "When your selves disagree, you may spend 1 Harmony to learn the answer to any question you could conceivably know or deduce the answer to and say it aloud. Your other half is skeptical. Take +1 forward to either act on the answer or to act on the skepticism or an alternate theory."
+wingmate:
+  name: Wingmate
+  playbook: The Ensemble
+  text: "Whenever one of you talks up the other or otherwise makes them look good, the other takes +1 forward to **Fight** or **Entice**. On a down beat, however, the subject of the move may prove more interested in the wingmate."
+antivirus:
+  name: Anti-Virus
+  playbook: The Hologoddess
+  text: "When someone with a String on you is threatened, once per session you can show up to defend them, even if it seems impossible. Take +1 forward to protect them."
+the emptiest orchestra:
+  name: The Emptiest Orchestra
+  playbook: The Hologoddess
+  text: "You always know what kind of song most appeals to someone. In addition, if you invite others to join you in song, take +1 forward or clear a Condition."
+encartography:
+  name: Encartography
+  playbook: The Hologoddess
+  text: "You have vast stores of information, much of it accurate and some of it useful. When you try to recall information relevant to a challenge before you, roll +Spirit:
+        \n10+: The information is precise, accurate, and just what you needed
+        \n7–9: Most of the information is accurate, but something crucial is out of date and you don’t know what"
+force multiplication:
+  name: Force Multiplication
+  playbook: The Hologoddess
+  text: When you and an ally fight together, you each benefit from your onboard combat suite. When one of you gains a String from **Fighting**, the other also gains a String on the target. If one of you would mark a Condition from **Fighting**, the other may mark it instead. If you’re fighting alongside multiple allies, choose one to be your fighting partner for purposes of this move when you first invoke it during the scene.
+justice through precision:
+  name: Justice through Precision
+  playbook: The Hologoddess
+  text: When you **Fight**, you may mark a Condition to choose an additional option, even on a 6-.
+please state the nature of your psychiatric emergency:
+  name: Please State the Nature of Your Psychiatric Emergency
+  playbook: The Hologoddess
+  text: If you roll a 10+ when offering **Emotional Support**, you can ask the person you’re supporting about what they hide from everyone else. However, you can’t help but overshare in response. Whoever you comfort gets to ask you a question in return.
+sharp with numbers:
+  name: Sharp with Numbers
+  playbook: The Hologoddess
+  text: Your skill with a blade flows not from raw strength, but from your mastery of the tactical field before you. You can roll +Spirit to **Fight** instead of +Daring. That same mastery also allows you to triangulate your position with perfect precision, so you always know where you are.
+training drone:
+  name: Training Drone
+  playbook: The Hologoddess
+  text: "You can summon an exact holographic copy of yourself that provides you with an opportunity based on distracting, intimidating, or confusing others. Every time you summon your drone, however, roll +nothing to see which bug manifests:
+        \n10+: No bugs. And the hologram is extra sparkly!
+        \n7–9: The drone can’t be dismissed for the rest of the session and it’s playing your most embarrassing music from your secret internal playlist.
+        \n6-: Your training drone wants to fight and probably fall in love with your friends (in addition to anyone you want them to fight). 
+        \nYour holographic clone is also an excellent dance partner, sparring buddy, and always laughs at your jokes."
