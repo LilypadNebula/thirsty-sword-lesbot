@@ -1,6 +1,7 @@
 import {APIEmbed, APIInteractionResponseChannelMessageWithSource, APIApplicationCommandInteractionDataOptionWithValues} from 'https://raw.githubusercontent.com/discordjs/discord-api-types/main/deno/v9.ts';
 import {parse} from 'https://deno.land/std/encoding/yaml.ts'
 import {Move} from '../types.ts'
+import {randomLesbianColor} from '../util.ts'
 
 export default async (params: APIApplicationCommandInteractionDataOptionWithValues[]): Promise<APIInteractionResponseChannelMessageWithSource> => {
   const enteredName = params[0].value as string
@@ -17,7 +18,7 @@ export default async (params: APIApplicationCommandInteractionDataOptionWithValu
     const move = moves[name]
     embed.title = move.name
     embed.description = move.text
-    embed.color = 0x00FFFF
+    embed.color = randomLesbianColor()
     embed.fields = [{name: 'Playbook', value: move.playbook}]
   } else {
     embed.title = 'Error: Move Not Found',
