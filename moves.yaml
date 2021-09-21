@@ -539,8 +539,7 @@ forensic attention:
 just one more thing:
   name: Just One More Thing...
   playbook: The Investigator
-  text: You’re excellent at concealing your suspicions when the situation demands, and you’re brilliant at underplaying your hand. When you **Call on a Toxic Power**, you may roll +Wit instead of
-+Spirit. (**Calling on a Toxic Power** yourself provides an opportunity to raise that Toxic Power’s Suspicion score if you choose.)
+  text: You’re excellent at concealing your suspicions when the situation demands, and you’re brilliant at underplaying your hand. When you **Call on a Toxic Power**, you may roll +Wit instead of +Spirit. (**Calling on a Toxic Power** yourself provides an opportunity to raise that Toxic Power’s Suspicion score if you choose.)
 misdirection:
   name: Misdirection
   playbook: The Investigator
