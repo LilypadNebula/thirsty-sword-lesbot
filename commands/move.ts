@@ -19,7 +19,13 @@ export default async (params: APIApplicationCommandInteractionDataOptionWithValu
     embed.title = move.name
     embed.description = move.text
     embed.color = randomLesbianColor()
-    embed.fields = [{name: 'Playbook', value: move.playbook}]
+    embed.fields = []
+    if (move.playbook != undefined) {
+      embed.fields.push({name: 'Playbook', value: move.playbook})
+    }
+    if (move.source != undefined) {
+      embed.fields.push({name: 'Source', value: move.source})
+    }
   } else {
     embed.title = 'Error: Move Not Found',
     embed.description = `Could not find a move with the name '${name}', could you check that you typed it correctly? In the future this will show you potential moves that you meant, but Lily isn't there yet`
