@@ -24,3 +24,11 @@ Deno.test({
     assertEquals(other.data.embeds[0].title, first.data.embeds[0].title)
   }
 })
+
+Deno.test({
+  name: 'Move not found',
+  fn: async (): Promise<void> => {
+    const notFoundMoveResponse = await move([{name: 'name', value:'one more thing', type: 3}])
+    assertEquals(true, true)
+  }
+})

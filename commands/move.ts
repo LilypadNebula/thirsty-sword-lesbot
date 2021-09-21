@@ -2,12 +2,20 @@ import {APIEmbed, APIInteractionResponseChannelMessageWithSource, APIApplication
 import {parse} from 'https://deno.land/std/encoding/yaml.ts'
 import {Move} from '../types.ts'
 import {randomLesbianColor} from '../util.ts'
+// @deno-types="https://deno.land/x/fuse/dist/fuse.d.ts"
+import Fuse from 'https://deno.land/x/fuse/dist/fuse.esm.min.js'
 
 export default async (params: APIApplicationCommandInteractionDataOptionWithValues[]): Promise<APIInteractionResponseChannelMessageWithSource> => {
   const enteredName = params[0].value as string
   const name = enteredName.toLowerCase().replace(/[^a-zA-Z ]/g, "")
   const contents = await Deno.readTextFile('moves.yaml')
   const moves = parse(contents) as Record<string, Move>
+  const response: APIInteractionResponseChannelMessageWithSource = {
+    type: 4,
+    data: {
+    }
+
+  }
   const embed: APIEmbed = {
     title: '',
     description: '',
@@ -26,18 +34,15 @@ export default async (params: APIApplicationCommandInteractionDataOptionWithValu
     if (move.source != undefined) {
       embed.fields.push({name: 'Source', value: move.source})
     }
+    response.data.embeds = [embed]
   } else {
-    embed.title = 'Error: Move Not Found',
-    embed.description = `Could not find a move with the name '${name}', could you check that you typed it correctly? In the future this will show you potential moves that you meant, but Lily isn't there yet`
-    embed.color = 0xF32E2E
+    const fuse = new Fuse(Object.keys(moves), {includeScore: true})
+    const results = fuse.search(name)
+    response.data.content =  `Could not find a move with the name '${name}', did you mean one of these?`
+    const buttons = results.map(v => ({type: 2, label: moves[v.item].name, style: 1, custom_id: v.item}))
+    response.data.components = [{type: 1, components: buttons}]
   }
-  const response: APIInteractionResponseChannelMessageWithSource = {
-    type: 4,
-    data: {
-      embeds: [embed]
-    }
-
-  }
+  
 
   return response
 }
