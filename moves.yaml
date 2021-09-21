@@ -808,7 +808,7 @@ influence with a string:
         \nAdd or subtract 1 from any roll they make (after rolling)
         \nEach character may only spend one String to add or subtract from a given roll."
 smitten:
-  name: Smitted
+  name: Smitten
   source: Basic Moves
   text: When you become Smitten with someone (always your choice), say why, give them a String on you, and answer the question in the Truths of Heart and Blade section of your playbook.
 finally kiss in a dangerous situation:
