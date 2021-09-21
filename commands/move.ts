@@ -37,12 +37,11 @@ export default async (params: APIApplicationCommandInteractionDataOptionWithValu
     response.data.embeds = [embed]
   } else {
     const fuse = new Fuse(Object.keys(moves), {includeScore: true})
-    const results = fuse.search(name)
+    const results = fuse.search(name).slice(0, 5)
     response.data.content =  `Could not find a move with the name '${name}', did you mean one of these?`
     const buttons = results.map(v => ({type: 2, label: moves[v.item].name, style: 1, custom_id: v.item}))
     response.data.components = [{type: 1, components: buttons}]
   }
   
-
   return response
 }

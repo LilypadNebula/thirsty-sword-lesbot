@@ -1,4 +1,4 @@
-import {assertEquals, assertExists} from 'https://deno.land/std/testing/asserts.ts'
+import {assertEquals, assertExists, assert} from 'https://deno.land/std/testing/asserts.ts'
 import move from './move.ts'
 
 Deno.test({
@@ -29,6 +29,7 @@ Deno.test({
   name: 'Move not found',
   fn: async (): Promise<void> => {
     const notFoundMoveResponse = await move([{name: 'name', value:'one more thing', type: 3}])
-    assertEquals(true, true)
+    assertExists(notFoundMoveResponse.data.components)
+    assertEquals(notFoundMoveResponse.data.components[0].components.length <= 5, true)
   }
 })
