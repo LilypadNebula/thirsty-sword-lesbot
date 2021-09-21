@@ -515,3 +515,239 @@ training drone:
         \n7–9: The drone can’t be dismissed for the rest of the session and it’s playing your most embarrassing music from your secret internal playlist.
         \n6-: Your training drone wants to fight and probably fall in love with your friends (in addition to anyone you want them to fight). 
         \nYour holographic clone is also an excellent dance partner, sparring buddy, and always laughs at your jokes."
+always theorizing:
+  name: Always Theorizing
+  playbook: The Investigator
+  text: You have a constantly updating map in your mind about the mystery you are hunting. When you roll to **Figure Out a Person**, roll +Wit and an additional +1 for each String you have on them. (You may still choose to spend one String for +3 instead if you wish.)
+the big reveal:
+  name: The Big Reveal
+  playbook: The Investigator
+  text: "When a Suspicion score for one of the Toxic Powers reaches 6, you may give a speech connecting all of the dots and revealing a deeper truth about the Toxic Power and what you’ve learned of how to uproot its influence. Reset that Suspicion score to 0 and choose a new burning question for that Toxic Power, if you wish.
+        \nChoose one of the following big reveals or create your own with the GM: 
+        \nVillainy is publicly revealed
+        \nA PC is freed from a Toxic Power bind
+        \nAn NPC formerly aligned with a Toxic Power defects, repents, or confesses
+        \nThe GM fills in the gaps in your understanding"
+do you trust me:
+  name: Do You Trust Me?
+  playbook: The Investigator
+  text: If you have gained true trust (Trust score 6) with any of the party members, you both get +2 instead of +1 when you **Influence each other with a String**. If they betray you, you **Stagger**.
+forensic attention:
+  name: Forensic Attention
+  playbook: The Investigator
+  text: When investigating the scene of a mystery, you always notice one seemingly unrelated detail that catches your attention for reasons even you don’t fully understand until later. The GM tells you what it is; while mysterious, it will turn out to be relevant.
+just one more thing:
+  name: Just One More Thing...
+  playbook: The Investigator
+  text: You’re excellent at concealing your suspicions when the situation demands, and you’re brilliant at underplaying your hand. When you **Call on a Toxic Power**, you may roll +Wit instead of
++Spirit. (**Calling on a Toxic Power** yourself provides an opportunity to raise that Toxic Power’s Suspicion score if you choose.)
+misdirection:
+  name: Misdirection
+  playbook: The Investigator
+  text: "When you Fight, you can choose from one of these in addition to the standard options:
+        \nYou provoke them into revealing a personal detail
+        \nYou filch a piece of incriminating evidence off of them without their knowledge"
+read the room:
+  name: Read the Room
+  playbook: The Investigator
+  text: "You're a brilliant observer of people, and a master of mimicry. Just a moment in a new environment, and you know just how to behave to get what you want. Roll +Wit:
+        \n10+: Choose 2 
+        \n7–9: Choose 1
+        \nWho should I approach first?
+        \nHow do I make the impression I want to make? a How do I go unnoticed here?
+        \nWho should I be keeping an eye on?"
+heavens sword:
+  name: Heaven's Sword
+  playbook: The Legion
+  text: "Legions have their heads full of the ghosts of their past selves. The voices are loud, but their collective wisdom—and unfulfilled desires—steadies the hands of the Legion as they are at present. Once per session, tell a tale from your tragic past to bump a down beat to a mixed beat or a mixed beat to an up beat and choose 2:
+        \nAn antagonist takes a String on you 
+        \nSomething in your actions or words hurt, scare, or confuse somebody you care about
+        \nDestiny lashes out at an innocent who has ties to you or your friends
+        \nSomeone you are Smitten with becomes Smitten with someone dangerous to you."
+been around a while:
+  name: Been Around a While
+  playbook: The Legion
+  text: For each point of Tragedy you currently possess, you may ask the GM a question about the obstacle at hand, the situation you and your friends are in, the organization or faction you’ve encountered, the item or object of interest to you, or the place you’ve just entered. This connection, however, works both ways. For each piece of information you gain, you lose something important, or an adversary gains the upper hand on you. The consequence always matches the power you gained. For example, asking about your rival among the Hellsingers could mean that a friend who had feelings for you gets hurt.
+cut right to your bones:
+  name: Cut Right to Your Bones
+  playbook: The Legion
+  text: Experienced soldiers make for experienced lovers. When your soul recognizes another, you connect deeply and swiftly. Whenever you **Entice** someone, you may give them a String on you to gain a String on them and declare that you knew each other in a past incarnation. The GM may tell you how or may leave it a mystery for the time being.
+just like you wanted:
+  name: Just Like You Wanted
+  playbook: The Legion
+  text: With infinite reincarnations comes infinite chances to acquire resources to your name. Once per session, you may declare that you and your allies have access to exactly what you need in terms of a timely opportunity, vital information, money or similar assets for trade, or a valuable contact. Tell us which past life let you get exactly what the party wanted. As a trade-off, the GM will give you one messy complication that comes with using this resource.
+resplendent weapon:
+  name: Resplendent Weapon
+  playbook: The Legion
+  text: When you **Fight**, roll +Spirit instead of +Daring. You cannot conceal your presence or identity whenever your weapon is drawn.
+tangled skeins:
+  name: Tangled Skeins
+  playbook: The Legion
+  text: When you return to a place that you’ve been before, name a comrade who fought at your side, or a foe you defeated there. Give them a String and say why. If they recognize you, mark XP.
+walk to a different song:
+  name: Walk to a Different Song
+  playbook: The Legion
+  text: You’ve learned to wield a bit of the magical energies of the world in the same way that you wield your sacred weapon. You may change your appearance to anything you like, with as much or as little detail of your choosing. For this to work, however, it has to have been someone or something that you were once in love with.
+a family is community:
+  name: A Family is Community
+  playbook: The Matriarch
+  text: Your family means the world to you. When people help your family meet their Needs, you may tell them why it matters to you and give them a String. When people insult your family or choose not to help your family, or otherwise cause harm to your family, you may confront them and tell them how they screwed up, then take away a String they have on you.
+a parental will:
+  name: A Parental Will
+  playbook: The Matriarch
+  text: Once per scene, when you would **Stagger** while protecting family or loved ones, you may instead add 1 to a Need track and power through the blow.
+been around:
+  name: Been Around
+  playbook: The Matriarch
+  text: "When you enter a new location, roll +Wit to see if you recall an adventure here or if something here reminds you of something you’ve experienced:
+        \n10+: You find something you can use to your advantage and gain +1 forward to any action using the item. You may also ask the GM a question about the location.
+        \n7–9: You may ask the GM a question about the location."
+collective power:
+  name: Collective Power
+  playbook: The Matriarch
+  text: "When you and an ally **Fight** together, each of you can use **Influence with a String** to add +2 to the **Fight** roll instead of +1."
+family meeting:
+  name: Family Meeting
+  playbook: The Matriarch
+  text: When you assemble your family, they will tell you what they think about the current situation or team. If you take their advice, you can clear a Condition or mark XP. If you do not, choose someone who prefers the course you chose and give them a String.
+family recipe:
+  name: Family Recipe
+  playbook: The Matriarch
+  text: "When you try to find out the connections between people using family as a basis, roll +Heart: 
+        \n10+: Ask 2 questions
+        \n7–9: Ask 1 question
+        \nWho matters the most to you?
+        \nWhat are your feelings towards your family? a What secrets are hiding in this very room? a Would you rather be part of my family?
+        \nIf the family is connected to one of your Specialities, you can ask an additional question regardless of the result."
+in the family:
+  name: In the Family
+  playbook: The Matriarch
+  text: "When you **Entice** someone known to your family, if you roll 7+, they choose 1 additional option:
+        \nYour family distracts them but one member will not be able to use their Specialty while they do
+        \nThey offer you a deal, but it will cost something that would meet one of your family's Needs
+        \nThey are in awe of your family’s reputation (or spirit) and will assist you without cost"
+strong in the real way:
+  name: Strong in Real Way
+  playbook: The Matriarch
+  text: "When you provide someone words of wisdom and they listen, roll +Heart:
+        \n10+: They take +1 forward to pursue your advice and give you a String
+        \n7–9: They take +1 forward to pursue your advice or give you a String"
+mask of many faces:
+  name: Mask of Many Faces
+  playbook: The Naga
+  text: "You can change your entire physical appearance at will as long as you have at least one point in Nagamani. When you do, describe your current appearance and choose 1:
+          \nYou take a form that allows you access to places or people you wouldn’t normally; you gain leverage with information discovered in the current scene
+          \nTake +1 forward in your next **Fight** because you appear more buff in this form
+          \nThe transformation allows you to blend in the crowd; remove a Condition
+          \nThe transformation gives you resilience; ignore the next time you would **Stagger** while in this form
+          \nYou may take another option from the preceding list when shapeshifting, but the GM gets to choose 1:
+          \nSomeone questions your fake identity
+          \nSomeone has seen you shapeshift
+          \nYour presence attracts the attention of a nearby bounty hunter"
+i will hide no more:
+  name: I Will Hide No More
+  playbook: The Naga
+  text: When you choose to expose your true identity while **Defying Disaster**, you may roll +Spirit instead of the standard stat. When you do so, increase your Nagamani by 1.
+loyal:
+  name: Loyal
+  playbook: The Naga
+  text: When you offer someone **Emotional Support**, you may reduce your Nagamani by 2 instead of spending a String.
+slippery:
+  name: Slippery
+  playbook: The Naga
+  text: "You’re hard to pin down and easily slip through most restraints and barriers. In most cases, you can slip through and sashay your way out of physical harm without rolling. For a truly formidable, legendary, or seemingly impossible obstacle, roll +Grace:
+        \n10+: Choose 2
+        \nYou may now use the restraint or obstacle to your advantage in the current or next scene
+        \nYou gain the element of surprise
+        \nYou get to change one of your **Mask of Many Faces** featuressurreptitiously
+        \n7–9: Choose 1 from the preceding list and 1 from the following list
+        \n...but reinforcements are incoming
+        \n...but you left someone or something behind"
+they had it coming:
+  name: They Had It Coming
+  playbook: The Naga
+  text: When you **Fight** someone you have a String on, you may also ask a question from **Show Yourself** as an option.
+trust in me:
+  name: Trust In Me
+  playbook: The Naga
+  text: When you gaze deeply into someone’s eyes as you **Entice** them, you may ask one question from **Figure Out a Person**, even on a 6-.
+sun hand baking:
+  name: Sun Hand Baking
+  playbook: The Sun Hand
+  text: "If you have dough, you can bake it anywhere. You can channel the heat of the sun into your hands. Bake bread by holding the dough and enveloping it in a solar aura. When you do, tell everyone what the aura looks like, and roll +Daring to imbue it with power:
+        \n10+: Choose 1
+        \n7–9: Choose 1, and you can’t make that bread again this session
+        \nMedical Bread: Tastes bitter; name a specific Condition to clear when eaten
+        \nSolar Crust: Stays piping hot for a day or until the crust is broken, and provides the ambient warmth of a small campfire
+        \nHeavy Crumb: Tastes familiar and comforting; become deeply sleepy after eating
+        \nKlo Style: Tastes of the sea; temporarily gain gills for a few hours after eating
+        \nFortifified: Dry in texture; when eaten, take +1 forward to roll with a stat chosen when baked
+        \nSugar Crust: Soft and fluffy; the scent diminishes feelings of aggres- sion in those that smell it
+        \nGolden Crust: The scent entrances those that smell it, causing them to float towards it; rumored to let you visit the afterlife while entranced
+        \nBreadbane: Name a specific species that is repelled by the scent; it tastes really nice for everyone but those named
+        \nIlluminated Crust: Tastes too sweet; glows and causes those who eat it to glow for a few hours
+        \nHard Crust: Tastes like a rock; can be used as a makeshift club in a pinch
+        \nImbued powers fade from the bread after one day."
+common ground:
+  name: Common Ground
+  playbook: The Sun Hand
+  text: When you gain a String on someone who has your current Obsession move, you both choose whether to bond over it. If you do, they gain a String on you and you both clear a Condition.
+fast friend:
+  name: Fast Friend
+  playbook: The Sun Hand
+  text: Your need to impress others and be vulnerable with them leads to you being easy to befriend. When meeting someone for the first time, you may ask them a question about one of their interests, and you each take a String on the other. If you do something nice with this detail in a future session for that person, they mark XP.
+hyperfocus:
+  name: Hyperfocus
+  playbook: The Sun Hand
+  text: When you’re focused, you’re focused. And when you get in that zone of focus, you learn faster. Once per scene, when you use an Obsession move twice in a row, describe how your understanding of the move has deepened and mark XP.
+know it all:
+  name: Know-It-All
+  playbook: The Sun Hand
+  text: You always seem to have advice for something. If you’ve seen someone make a particular move before, you can discard a String on anyone but them to let them reroll that move (once per roll).
+oppositional defiance: 
+  name: Oppositional Defiance
+  playbook: The Sun Hand
+  text: You defy authority as a reflex. If someone tells you to do something, even if it's something you wanted to do, your instinct is to not do it. If you directly defy authority, gain a String on that person. If you comply, they gain a String on you.
+positive reinforcement:
+  name: Positive Reinforcement
+  playbook: The Sun Hand
+  text: Confirmation that your obsessions are good give you a boost. When you roll a 10+ using your Obsession move, choose someone present to impress and gain a String on them.
+limelight:
+  name: Limelight
+  playbook: The Troubadour
+  text: "When you perform your music, roll +Heart:
+        \n10+: Choose 2
+        \n7–9: Choose 2 and the GM may ask you one question from Figure Out a Person. Everyone in your audience learns the answer.
+        \nRock Out: Someone else is rocking out, too; take a String on them a Shout Out: Thank your Patron and take +1 forward
+        \nShred: Release a mind-bending solo; you clear a Condition
+        \nKick Out the Jams: Pick a listener who finds inner strength; they clear a Condition
+        \nBring the Noise: Call out the ugly truth about someone powerful and give your Patron a String on you
+        \nSerenade: Become Smitten with someone present and gain a String on them"
+constant craving:
+  name: Constant Craving
+  playbook: The Troubadour
+  text: After a show, ask someone important to you how they liked your performance. If their reaction is positive, clear a Condition. If it is negative, take a Condition. If you’re **Smitten** with them or they are your Patron, mark XP if their reaction is positive, or **Stagger** if it’s negative.
+number of the beast:
+  name: Number of the Beast
+  playbook: The Troubadour
+  text: "When you transgress societal norms to attract attention, you become the center of attention and roll +Spirit:
+        \n10+: Your transgressive music inspires your audience to work together
+        \n7–9: Your music is judged heretical and possibly illegal; you draw the ire of a Toxic Power, but it still inspires unity"
+purple haze:
+  name: Purple Haze
+  playbook: The Troubadour
+  text: "When you cut loose in forbidden ways to gain inspiration, roll +Daring:
+        \n10+: Gain enlightenment. You may ask a question. If you ask the GM, mark XP. If you ask another PC, they mark XP.
+        \n7–9: You take it too far. You may ask a question, but someone present gets a String on you (GM’s choice)."
+shooting star:
+  name: Shooting Star
+  playbook: The Troubadour
+  text: When you need something from an NPC you’ve never met, you may declare that they’re a fan. They will give you what you want, so long as it doesn’t endanger their life or values. The NPC will demand some small favor, like an autograph. If you don’t grant the favor, you take a Condition.
+sympathy for the devil:
+  name: Sympathy for the Devil
+  playbook: The Troubadour
+  text: When you defend or rationalize the harmful behavior of a person or group, take a String on them. For NPCs, they will become your Patron if you wish. However, you must also say who is hurt and mark a Condition.When you defend or rationalize the harmful behavior of a person or group, take a String on them. For NPCs, they will become your Patron if you wish. However, you must also say who is hurt and mark a Condition.
+we will rock you:
+  name: We Will Rock You
+  playbook: The Troubadour
+  text: You have a band or crew of 2–4 members (NPCs). Give them each a name, a role in your troupe, and a vice. If you help a troupe member indulge their vice, take +1 forward at the start of the next performance where they are present.
