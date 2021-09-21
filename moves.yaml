@@ -33,12 +33,9 @@ the fated day approaches:
   name: The Fated Day Approaches
   playbook: The Chosen
   text: "Whenever you miss an opportunity to make progress towards your Destiny, choose 1:
-        \na Someone with power over you makes an uncomfortable demand in furtherance
-        \nof your Destiny, backed by a threat
-        \naThe PC you care about the most receives bad news or has an accident serious
-        \nenough to make them **Stagger**
-        \nThe GM will tell you the details, inspired by your Destiny. They may wait until a lull
-        \nin the action to drop the consequences on you."
+        \nSomeone with power over you makes an uncomfortable demand in furtherance of your Destiny, backed by a threat
+        \nThe PC you care about the most receives bad news or has an accident serious enough to make them **Stagger**
+        \nThe GM will tell you the details, inspired by your Destiny. They may wait until a lull in the action to drop the consequences on you."
 dont you know who i am:
   name: Don't You Know Who I Am?
   playbook: The Chosen
@@ -758,7 +755,7 @@ fight:
         \n7–9: Choose 2 and your opponent chooses 1
         \nFlirt with or provoke your opponent and gain a String on them 
         \nThrough violence or cutting words, inflict a Condition
-        \naCreate an opportunity for an ally through prowess or distraction 
+        \nCreate an opportunity for an ally through prowess or distraction 
         \nTake an object from your opponent or seize a superior position"
 defy disaster:
   name: Defy Disaster
