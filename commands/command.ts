@@ -1,7 +1,9 @@
-import move from './move.ts'
+import move from "./move.ts";
+import component_move from './component_move.ts'
 
 const commands: Record<string, Function> = {
-  move
-}
+  move,
+  component_move
+};
 
-export default commands
+export default commands;
