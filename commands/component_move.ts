@@ -33,6 +33,8 @@ export default async (
   const response: APIInteractionResponseChannelMessageWithSource = {
     type: 7,
     data: {
+      content: "",
+      components: [],
       embeds: [embed],
     },
   };
