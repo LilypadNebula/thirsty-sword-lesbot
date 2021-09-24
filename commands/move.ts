@@ -42,15 +42,20 @@ export default async (
   } else {
     const fuse = new Fuse(Object.keys(moves), { includeScore: true });
     const results = fuse.search(name).slice(0, 5);
-    response.data.content =
-      `Could not find a move with the name '${name}', did you mean one of these?`;
-    const buttons = results.map((v) => ({
-      type: 2,
-      label: moves[v.item].name,
-      style: 1,
-      custom_id: `component_move|${v.item}`,
-    }));
-    response.data.components = [{ type: 1, components: buttons }];
+    if (results.length === 0) {
+      response.data.content = "A move wasn’t found with those search terms, please try again with different keywords"
+    }
+    else {
+      response.data.content =
+      `Did you mean one of these?`;
+      const buttons = results.map((v) => ({
+        type: 2,
+        label: moves[v.item].name,
+        style: 1,
+        custom_id: `component_move|${v.item}`,
+      }));
+      response.data.components = [{ type: 1, components: buttons }];
+    }
   }
 
   return response;
