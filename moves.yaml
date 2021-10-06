@@ -96,7 +96,7 @@ lay on hands:
 loyal steed:
   name: Loyal Steed
   playbook: The Devoted
-  text: ame your steed and detail two strengths and two weaknesses from the following list. When riding your steed, you may roll +Spirit instead of +Daring to **Fight** and may take a person with you whenever you **Defy Disaster**.
+  text: Name your steed and detail two strengths and two weaknesses from the following list. When riding your steed, you may roll +Spirit instead of +Daring to **Fight** and may take a person with you whenever you **Defy Disaster**.
 toxic devotion:
   name: Toxic Devotion
   playbook: The Devoted
@@ -398,6 +398,31 @@ wolf and cub:
   name: Wolf and Cub
   playbook: The Bloody
   text: Once per session, you may declare your intent to protect someone or something of great value to you. You take +1 forward for actions taken to fulfill that promise. Once per session, when the object of your protection would take a Condition or be harmed, you may take a Condition instead.
+tangled up:
+  name: Tangled Up
+  playbook: The Dream Mirror
+  text: "When someone else wants you to do something...
+        \n...for them, if you do it, they must show approval, gratitude, or admiration. If you don’t do it, they mark a Condition, and if you pursue your desires instead, gain 1 Insight.
+        \n...for yourself, confess how little you know about yourself or your desires. If they encourage you to discover yourself, gain 1 Insight (up to once per scene). If they don’t, take a Condition."
+self reflection:
+  name: Self-Reflection
+  playbook: The Dream Mirror
+  text: "For each Insight advance, answer:
+        \nWhat have you recently discovered about yourself that makes you proud to be you?
+        \nChange an aesthetic to reflect that discovery and permanently gain one:
+        \n- You can use and gain XP from Influence with a String
+        \n- Others can use Strings for +3 to Figure You Out
+        \n- You can gain XP from String Advances and others can earn String Advances on you
+        \nAfter gaining all three, ask another PC:
+        \nWhat do you like best about the person behind the mirror?"
+be their dream:
+  name: Be Their Dream
+  playbook: The Dream Mirror
+  text: When you change yourself to gain someone’s acceptance, affection, or interest, ask if it worked. If so, exchange Strings. If you gain three Strings this way in a scene, you Stagger.
+group hug:
+  name: Group Hug
+  playbook: The Dream Mirror
+  text: Once per session, when you offer Emotional Support, on a 10+, you may forgo your choice of a benefit for yourself to instead let others clear a Condition if they meaningfully join in and open up to you.
 mirror ball:
   name: Mirror Ball
   playbook: The Dream Mirror
