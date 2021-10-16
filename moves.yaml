@@ -445,7 +445,7 @@ mimesis:
   name: Mimesis
   playbook: The Dream Mirror
   text: "When you observe someone for a short time, you may ask one: 
-        \nWhat words would you use to say _____?
+        \nWhat words would you use to say \_\_\_\_\_?
         \nWhat would you talk about in this situation?
         \nWhat behaviors do you find non-threatening, endearing, or desirable? 
         \nWhom do you wish I was more similar to?"
@@ -815,14 +815,14 @@ entice:
 figure out a person:
   name: Figure Out A Person
   source: Basic Moves
-  text: "When you try to understand a person, roll +Wit (+3 more if you spend a String on them):
+  text: "\When you try to understand a person, roll +Wit (+3 more if you spend a String on them):
         \n10+: You may ask 2 questions, now or later in the scene 
         \n7–9: You may ask 2 questions, but they may ask 1 of you
-        \nWhat are your feelings towards _____? 
-        \nWhat do you hope to get from _____? 
-        \nHow could I get you to _____?
+        \nWhat are your feelings towards \_\_\_\_? 
+        \nWhat do you hope to get from \_\_\_\_\_? 
+        \nHow could I get you to \_\_\_\_\_?
         \nWhat do you love most?
-        \nHow would you feel if I _____?"
+        \nHow would you feel if I \_\_\_\_\_?"
 influence with a string:
   name: Influence With a String
   source: Basic Moves
