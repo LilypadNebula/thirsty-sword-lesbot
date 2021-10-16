@@ -815,7 +815,7 @@ entice:
 figure out a person:
   name: Figure Out A Person
   source: Basic Moves
-  text: "\When you try to understand a person, roll +Wit (+3 more if you spend a String on them):
+  text: "When you try to understand a person, roll +Wit (+3 more if you spend a String on them):
         \n10+: You may ask 2 questions, now or later in the scene 
         \n7–9: You may ask 2 questions, but they may ask 1 of you
         \nWhat are your feelings towards \_\_\_\_? 
