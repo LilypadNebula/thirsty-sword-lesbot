@@ -1,5 +1,4 @@
 import {
-  APIApplicationCommandInteractionDataOptionWithValues,
   APIEmbed,
   APIInteractionResponseChannelMessageWithSource,
 } from "https://raw.githubusercontent.com/discordjs/discord-api-types/main/deno/v9.ts";
@@ -8,7 +7,7 @@ import { Move } from "../types.ts";
 import { randomLesbianColor } from "../util.ts";
 
 export default async (
-  value: string,
+  value: string
 ): Promise<APIInteractionResponseChannelMessageWithSource> => {
   const contents = await Deno.readTextFile("moves.yaml");
   const moves = parse(contents) as Record<string, Move>;

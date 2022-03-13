@@ -1,5 +1,5 @@
 import {
-  APIApplicationCommandInteractionDataOptionWithValues,
+  APIApplicationCommandInteractionDataBasicOption,
   APIEmbed,
   APIInteractionResponseChannelMessageWithSource,
 } from "https://raw.githubusercontent.com/discordjs/discord-api-types/main/deno/v9.ts";
@@ -10,7 +10,7 @@ import { randomLesbianColor } from "../util.ts";
 import Fuse from "https://deno.land/x/fuse/dist/fuse.esm.min.js";
 
 export default async (
-  params: APIApplicationCommandInteractionDataOptionWithValues[],
+  params: APIApplicationCommandInteractionDataBasicOption[]
 ): Promise<APIInteractionResponseChannelMessageWithSource> => {
   const enteredName = params[0].value as string;
   const name = enteredName.toLowerCase().replace(/[^a-zA-Z ]/g, "");
@@ -43,11 +43,10 @@ export default async (
     const fuse = new Fuse(Object.keys(moves), { includeScore: true });
     const results = fuse.search(name).slice(0, 5);
     if (results.length === 0) {
-      response.data.content = "A move wasn’t found with those search terms, please try again with different keywords"
-    }
-    else {
       response.data.content =
-      `Did you mean one of these?`;
+        "A move wasn’t found with those search terms, please try again with different keywords";
+    } else {
+      response.data.content = `Did you mean one of these?`;
       const buttons = results.map((v) => ({
         type: 2,
         label: moves[v.item].name,
