@@ -3,13 +3,13 @@ import { json } from "@remix-run/node";
 import invariant from "tiny-invariant";
 import nacl from "tweetnacl";
 
-export const action: ActionFunction = async ({request}) => {
+export const action: ActionFunction = async ({ request }) => {
   if (request.method !== "POST") {
-	return json({ message: "Method not allowed" }, 405);
+    return json({ message: "Method not allowed" }, 405);
   }
 
   const signature = request.headers.get(
-	"X-Signature-Ed25519"
+    "X-Signature-Ed25519"
   );
   invariant(signature, 'No signature header')
   const timestamp = request.headers.get("X-Signature-Timestamp")
@@ -18,16 +18,18 @@ export const action: ActionFunction = async ({request}) => {
   invariant(PUBLIC_KEY, 'No public key')
   const body = await request.text();
   const valid = nacl.sign.detached.verify(
-	  new TextEncoder().encode(timestamp + body),
-	  hexToUint8Array(signature),
-	  hexToUint8Array(PUBLIC_KEY),
+    new TextEncoder().encode(timestamp + body),
+    hexToUint8Array(signature),
+    hexToUint8Array(PUBLIC_KEY),
   );
-	if (!valid) {
-		return json(
-		  { error: "Invalid request" },
-		  {status: 401,},
-		);
-	  }
+  if (!valid) {
+    return json(
+      { error: "Invalid request" },
+      { status: 401, },
+    );
+  }
+
+
 };
 
 
