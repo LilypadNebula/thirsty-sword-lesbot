@@ -80,8 +80,8 @@ Prior to your first deployment, you'll need to do a few things:
 - Create two apps on Fly, one for staging and one for production:
 
   ```sh
-  fly create thirsty-sword-lesbot-9c67
-  fly create thirsty-sword-lesbot-9c67-staging
+  fly create thirsty-sword-lesbot
+  fly create thirsty-sword-lesbot-staging
   ```
 
   - Initialize Git.
@@ -98,20 +98,11 @@ Prior to your first deployment, you'll need to do a few things:
 
 - Add a `FLY_API_TOKEN` to your GitHub repo. To do this, go to your user settings on Fly and create a new [token](https://web.fly.io/user/personal_access_tokens/new), then add it to [your repo secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets) with the name `FLY_API_TOKEN`.
 
-- Add a `SESSION_SECRET` to your fly app secrets, to do this you can run the following commands:
-
-  ```sh
-  fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app thirsty-sword-lesbot-9c67
-  fly secrets set SESSION_SECRET=$(openssl rand -hex 32) --app thirsty-sword-lesbot-9c67-staging
-  ```
-
-  If you don't have openssl installed, you can also use [1password](https://1password.com/password-generator/) to generate a random secret, just replace `$(openssl rand -hex 32)` with the generated secret.
-
 - Create a persistent volume for the sqlite database for both your staging and production environments. Run the following:
 
   ```sh
-  fly volumes create data --size 1 --app thirsty-sword-lesbot-9c67
-  fly volumes create data --size 1 --app thirsty-sword-lesbot-9c67-staging
+  fly volumes create data --size 1 --app thirsty-sword-lesbot
+  fly volumes create data --size 1 --app thirsty-sword-lesbot-staging
   ```
 
 Now that everything is set up you can commit and push your changes to your repo. Every commit to your `main` branch will trigger a deployment to your production environment, and every commit to your `dev` branch will trigger a deployment to your staging environment.
