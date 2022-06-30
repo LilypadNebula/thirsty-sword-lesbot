@@ -1,5 +1,39 @@
-import { } from '../models/move.server'
+import { getMoveByName, searchMoveNames } from '../models/move.server'
+import type {
+	APIEmbed,
+	APIInteractionResponseChannelMessageWithSource,
+} from 'discord-api-types/v10'
+import { randomLesbianColor } from '~/utils'
 
-export default async (searchText: string) => {
-
+export default async (
+	searchText: string
+): Promise<APIInteractionResponseChannelMessageWithSource> => {
+	const response: APIInteractionResponseChannelMessageWithSource = {
+		type: 4,
+		data: {},
+	}
+	const embed: APIEmbed = {
+		title: '',
+		description: '',
+		color: 0x000000,
+		fields: [],
+	}
+	const move = await getMoveByName(searchText)
+	if (move != null) {
+		embed.title = move.name
+		embed.description = move.text
+		embed.color = randomLesbianColor()
+		embed.fields = []
+		if (move.playbook != undefined) {
+			embed.fields.push({ name: 'Playbook', value: move.playbook.name })
+		}
+		// if (move.source != undefined) {
+		//   embed.fields.push({ name: "Source", value: move.source });
+		// }
+	}
+	const results = await searchMoveNames(searchText)
+	if (results.length === 0)
+		response.data.content =
+			"A move wasn't found with those search terms, please try again with different keywords"
+	return response
 }
