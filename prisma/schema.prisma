@@ -32,7 +32,9 @@ model Move {
   
   text String
   
-  playbook Playbook @relation(fields: [playbookId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  playbook Playbook? @relation(fields: [playbookId], references: [id], onDelete: Cascade, onUpdate: Cascade)
   
-  playbookId String
+  playbookId String?
+
+  source String?
 }
