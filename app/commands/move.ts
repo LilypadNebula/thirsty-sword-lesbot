@@ -24,7 +24,6 @@ async function getMoveResponseOptions(
 		return { embeds: [embed] }
 	}
 	const results = await searchMoveNames(searchText)
-	console.log(results)
 	if (results.length === 0) {
 		return {
 			content:

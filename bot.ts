@@ -2,6 +2,7 @@
 import { Client, Intents } from 'discord.js'
 import 'dotenv/config'
 import commands from './app/commands'
+import components from './app/components'
 
 const { token } = process.env
 
@@ -25,6 +26,25 @@ client.on('interactionCreate', async (interaction) => {
 			await interaction.reply({
 				content: 'There was an error while executing this command',
 				ephemeral: true,
+			})
+		}
+	}
+	if (interaction.isButton()) {
+		const { customId } = interaction
+		const [id] = customId.split('|', 2)
+		const component = components[id]
+		if (!component)
+			return await interaction.update({
+				components: [],
+				content: 'Something went wrong with this interaction',
+			})
+		try {
+			await component.execute(interaction)
+		} catch (error) {
+			console.error(error)
+			await interaction.update({
+				components: [],
+				content: 'Something went wrong with this interaction',
 			})
 		}
 	}
