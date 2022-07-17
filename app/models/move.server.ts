@@ -3,7 +3,7 @@ import Fuse from 'fuse.js'
 
 export async function getMoveByName(name: string) {
 	return await prisma.move.findFirst({
-		where: { name },
+		where: { name: { equals: name, mode: 'insensitive' } },
 
 		include: {
 			playbook: {
