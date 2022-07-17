@@ -19,6 +19,6 @@ export async function getMoveByName(name: string) {
  * since Primsa doesn't support it yet */
 export async function searchMoveNames(text: string) {
 	const moves = await prisma.move.findMany()
-	const fuse = new Fuse(moves, { keys: ['name'] })
+	const fuse = new Fuse(moves, { keys: ['name'], includeScore: true })
 	return fuse.search(text)
 }

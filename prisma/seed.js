@@ -19,7 +19,7 @@ async function seed() {
 			name: 'Transform',
 			text: `You have a bestial form, which you can assume at will and must assume whenever your Feral hits 4. When you do, tell everyone what the beast in you looks like, increase your Feral to 4 if it’s not there already, and roll +Daring:
       10+: Choose 2 
-      7–9: Choose 1
+      7-9: Choose 1
       You are in harmony with your beast and may clear a Condition
       You are magnificent and little escapes your notice; you gain leverage or an
       opportunity with a monster
