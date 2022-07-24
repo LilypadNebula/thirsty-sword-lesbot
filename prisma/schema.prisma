@@ -22,6 +22,17 @@ model Playbook {
   moves Move[]
 }
 
+model Source {
+  id String @id @default(cuid())
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name String @unique
+
+  moves Move[]
+}
+
 model Move {
   id String @id @default(cuid())
   
@@ -36,5 +47,7 @@ model Move {
   
   playbookId String?
 
-  source String?
+  source Source? @relation(fields: [sourceId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  
+  sourceId String?
 }
