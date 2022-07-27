@@ -3,9 +3,9 @@ import type { ButtonInteraction } from 'discord.js'
 import type { APIEmbed } from 'discord-api-types/v10'
 import type { InteractionUpdateOptions } from 'discord.js'
 
-import { getMoveById } from '~/models/move.server'
+import { getMoveById } from '../models/move.server'
 
-import { randomLesbianColor } from '~/utils'
+import { randomLesbianColor } from '../utils'
 
 export default {
 	name: 'component_move',

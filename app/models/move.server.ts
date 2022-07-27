@@ -1,4 +1,4 @@
-import { prisma } from '~/db.server'
+import { prisma } from '../db.server'
 import Fuse from 'fuse.js'
 
 export async function getMoveByName(name: string) {

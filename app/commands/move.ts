@@ -1,7 +1,7 @@
 import { getMoveByName, searchMoveNames } from '../models/move.server'
 import type { APIEmbed } from 'discord-api-types/v10'
 import { SlashCommandBuilder } from '@discordjs/builders'
-import { randomLesbianColor } from '~/utils'
+import { randomLesbianColor } from '../utils'
 import type { CommandInteraction, InteractionReplyOptions } from 'discord.js'
 
 async function getMoveResponseOptions(
