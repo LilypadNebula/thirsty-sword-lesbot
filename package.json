@@ -38,6 +38,7 @@
 		"@remix-run/serve": "^1.6.1",
 		"@remix-run/server-runtime": "^1.6.1",
 		"bcryptjs": "^2.4.3",
+		"concurrently": "^7.3.0",
 		"discord-api-types": "^0.35.0",
 		"discord.js": "^13.8.1",
 		"dotenv": "^16.0.1",
