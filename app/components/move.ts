@@ -37,7 +37,7 @@ export default {
 			embed.fields.push({ name: 'Playbook', value: move.playbook.name })
 		}
 		if (move.source != undefined) {
-			embed.fields.push({ name: 'Source', value: move.source })
+			embed.fields.push({ name: 'Source', value: move.source.name })
 		}
 		const options: InteractionUpdateOptions = {
 			content: null,

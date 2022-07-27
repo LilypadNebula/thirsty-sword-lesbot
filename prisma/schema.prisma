@@ -15,9 +15,8 @@ model Playbook {
   
   name String @unique
   
-  smitten String
-  conflict1 String
-  conflict2 String
+  smitten String[]
+  conflict String[]
   
   moves Move[]
 }

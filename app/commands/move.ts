@@ -19,7 +19,7 @@ async function getMoveResponseOptions(
 			embed.fields.push({ name: 'Playbook', value: move.playbook.name })
 		}
 		if (move.source != undefined) {
-			embed.fields.push({ name: 'Source', value: move.source })
+			embed.fields.push({ name: 'Source', value: move.source.name })
 		}
 		return { embeds: [embed] }
 	}
@@ -30,7 +30,7 @@ async function getMoveResponseOptions(
 				"A move wasn't found with those search terms, please try again with different keywords",
 		}
 	}
-	const buttons = results.map((v) => ({
+	const buttons = results.slice(0, 5).map((v) => ({
 		type: 2,
 		label: v.item.name,
 		style: 1,

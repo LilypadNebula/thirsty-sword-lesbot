@@ -11,6 +11,11 @@ export async function getMoveByName(name: string) {
 					name: true,
 				},
 			},
+			source: {
+				select: {
+					name: true,
+				},
+			},
 		},
 	})
 }
@@ -28,6 +33,11 @@ export async function getMoveById(id: string) {
 		where: { id },
 		include: {
 			playbook: {
+				select: {
+					name: true,
+				},
+			},
+			source: {
 				select: {
 					name: true,
 				},
