@@ -1,8 +1,8 @@
 // Require the necessary discord.js classes
 import { Client, Intents } from 'discord.js'
 import 'dotenv/config'
-import commands from './app/commands'
-import components from './app/components'
+import commands from '../app/commands'
+import components from '../app/components'
 
 const { token } = process.env
 

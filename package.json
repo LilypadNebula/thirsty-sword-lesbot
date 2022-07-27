@@ -14,7 +14,7 @@
 		"generate:css": "tailwindcss -o ./app/styles/tailwind.css",
 		"lint": "eslint --fix --cache --cache-location ./node_modules/.cache/eslint .",
 		"setup": "prisma generate && prisma migrate deploy && prisma db seed",
-		"start": "concurrently \"ts-node bot.ts\" \"remix-serve build\"",
+		"start": "concurrently \"node ./bot/bot.js\" \"remix-serve build\"",
 		"start:mocks": "binode --require ./mocks -- @remix-run/serve:remix-serve build",
 		"test": "vitest",
 		"test:e2e:dev": "start-server-and-test dev http://localhost:3000 \"npx cypress open\"",

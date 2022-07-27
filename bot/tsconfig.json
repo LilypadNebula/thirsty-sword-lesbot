@@ -1,0 +1,7 @@
+{
+	"extends": "../tsconfig.json",
+	"include": ["./bot.ts"],
+	"compilerOptions": {
+		"noEmit": false
+	}
+}
