@@ -36,7 +36,7 @@ RUN npx prisma generate
 
 ADD . .
 RUN npm run build
-RUN tsc -p bot
+RUN tsc -p bot; exit 0
 
 # Finally, build the production image with minimal footprint
 FROM base
