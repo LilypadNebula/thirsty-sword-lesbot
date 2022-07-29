@@ -2,6 +2,6 @@
 	"include": ["./bot.ts"],
 	"compilerOptions": {
 		"noEmit": false,
-		"outDir": "../build/bot"
+		"outDir": "../build/"
 	}
 }
