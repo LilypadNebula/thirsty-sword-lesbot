@@ -2,6 +2,7 @@
 	"include": ["./bot.ts"],
 	"compilerOptions": {
 		"noEmit": false,
-		"outDir": "../build/"
+		"outDir": "../build/",
+		"esModuleInterop": true
 	}
 }
