@@ -956,7 +956,8 @@ export default [
 		10+: Gain a String on them and they choose 1 
 		7-9: Gain a String on them, unless they decide instead to choose 1 
 		Get flustered and awkward 
-		Promise something they think you want aGive in to desire`,
+		Promise something they think you want 
+		Give in to desire`,
 	},
 	{
 		name: 'Figure Out A Person',
