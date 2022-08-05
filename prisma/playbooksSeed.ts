@@ -90,8 +90,7 @@ export default [
 	{
 		name: 'The Ensemble',
 		smitten: [
-			`How would pursuing them make my partner feel
-    unloved or unneeded?`,
+			`How would pursuing them make my partner feel unloved or unneeded?`,
 			`Why do they need you more than your partner does?`,
 		],
 		conflict: [
