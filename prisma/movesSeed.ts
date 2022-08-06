@@ -873,7 +873,8 @@ export default [
 		text: `When you perform your music, roll +Heart: 
 		10+: Choose 2 
 		7-9: Choose 2 and the GM may ask you one question from Figure Out a Person. Everyone in your audience learns the answer. 
-		Rock Out: Someone else is rocking out, too; take a String on them a Shout Out: Thank your Patron and take +1 forward 
+		Rock Out: Someone else is rocking out, too; take a String on them 
+		Shout Out: Thank your Patron and take +1 forward 
 		Shred: Release a mind-bending solo; you clear a Condition 
 		Kick Out the Jams: Pick a listener who finds inner strength; they clear a Condition 
 		Bring the Noise: Call out the ugly truth about someone powerful and give your Patron a String on you 
@@ -955,7 +956,8 @@ export default [
 		10+: Gain a String on them and they choose 1 
 		7-9: Gain a String on them, unless they decide instead to choose 1 
 		Get flustered and awkward 
-		Promise something they think you want aGive in to desire`,
+		Promise something they think you want 
+		Give in to desire`,
 	},
 	{
 		name: 'Figure Out A Person',

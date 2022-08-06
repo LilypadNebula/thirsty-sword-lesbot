@@ -1,6 +1,8 @@
 import type { RESTPostAPIApplicationCommandsJSONBody } from 'discord-api-types/v10'
 import type { CommandInteraction } from 'discord.js'
 import move from './move'
+import smitten from './smitten'
+import figureout from './figureout'
 
 const moveList: Record<
 	string,
@@ -10,6 +12,8 @@ const moveList: Record<
 	}
 > = {
 	move,
+	smitten,
+	figureout,
 }
 
 export default moveList
