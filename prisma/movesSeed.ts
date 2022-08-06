@@ -680,7 +680,8 @@ export default [
 		10+: Choose 2  
 		7-9: Choose 1 
 		Who should I approach first? 
-		How do I make the impression I want to make? a How do I go unnoticed here? 
+		How do I make the impression I want to make?
+		How do I go unnoticed here? 
 		Who should I be keeping an eye on?`,
 	},
 	{
