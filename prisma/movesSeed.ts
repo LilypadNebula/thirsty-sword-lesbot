@@ -384,7 +384,7 @@ export default [
 		Additionally, whenever a PC Figures You Out, you can give false answers. You must increase your Feelings by 1 at the end of any scene where you do this.`,
 	},
 	{
-		name: 'The Mask',
+		name: 'Center of the Web',
 		playbook: 'The Trickster',
 		text: `When someone approaches you to get something from you or threaten you, choose 1: 
 		Gain a String on them or they lose a String on you 
