@@ -384,7 +384,7 @@ export default [
 		Additionally, whenever a PC Figures You Out, you can give false answers. You must increase your Feelings by 1 at the end of any scene where you do this.`,
 	},
 	{
-		name: 'The Mask',
+		name: 'Center of the Web',
 		playbook: 'The Trickster',
 		text: `When someone approaches you to get something from you or threaten you, choose 1: 
 		Gain a String on them or they lose a String on you 
@@ -680,7 +680,8 @@ export default [
 		10+: Choose 2  
 		7-9: Choose 1 
 		Who should I approach first? 
-		How do I make the impression I want to make? a How do I go unnoticed here? 
+		How do I make the impression I want to make?
+		How do I go unnoticed here? 
 		Who should I be keeping an eye on?`,
 	},
 	{
