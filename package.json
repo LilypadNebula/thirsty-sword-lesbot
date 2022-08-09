@@ -10,6 +10,7 @@
 		"dev": "run-p dev:*",
 		"dev:css": "npm run generate:css -- --watch",
 		"dev:remix": "cross-env NODE_ENV=development binode --require ./mocks -- @remix-run/dev:remix dev",
+		"dev:bot": "ts-node bot/bot.ts",
 		"docker": "docker-compose up -d",
 		"format": "prettier --write .",
 		"generate:css": "tailwindcss -o ./app/styles/tailwind.css",
