@@ -257,7 +257,8 @@ export default [
 		7-9: Choose 1 
 		All attention is focused on you for a moment 
 		You hold the attention of one person for as long as you deliver a dramatic speech 
-		Take a String on someone present aYou take +1 forward`,
+		Take a String on someone present 
+		You take +1 forward`,
 	},
 	{
 		name: 'One in Every Port',
@@ -275,7 +276,8 @@ export default [
 		text: `When you talk about your home, roll +Heart: 10+: Choose 2 
 		7-9: Choose 1 
 		Admit a flaw about your home; gain +1 forward 
-		Share something good about your home; clear a Condition aLie about your home to impress a listener; take a String on them`,
+		Share something good about your home; clear a Condition
+		Lie about your home to impress a listener; take a String on them`,
 	},
 	{
 		name: 'Hear Me!',
@@ -398,7 +400,8 @@ export default [
 		10+: Choose 2 
 		7-9: Choose 1 
 		The item reveals a secret love or vulnerability 
-		The item creates an opportunity (such as a map, key, or note) aThe person doesn't know you took it`,
+		The item creates an opportunity (such as a map, key, or note) 
+		The person doesn't know you took it`,
 	},
 	{
 		name: 'Devious Scheme',
@@ -407,7 +410,8 @@ export default [
 		10+: Twice during your plan, you may choose 1 
 		7-9: Once during your plan, you may choose 1 
 		Produce just the right object 
-		Describe an unexpected weakness in an obstacle aAppear right behind someone at a crucial moment`,
+		Describe an unexpected weakness in an obstacle 
+		Appear right behind someone at a crucial moment`,
 	},
 	{
 		name: 'Knives Behind the Mask',
@@ -540,7 +544,8 @@ export default [
 		playbook: 'The Dream Mirror',
 		text: `When your looks or behavior are unacceptable for your social role, choose 1: 
 		Get +1 forward to **Entice** while asking forgiveness or getting self-conscious. 
-		Offer someone a String to find the faux pas charming or endearing. aAsk for guidance or private instruction. If they agree, exchange Strings. 
+		Offer someone a String to find the faux pas charming or endearing. 
+		Ask for guidance or private instruction. If they agree, exchange Strings. 
 		Ask what it would take to overlook it. If you do it, take a String on them. If you don't, take a Condition.`,
 	},
 	{
@@ -948,7 +953,8 @@ export default [
 		Choose 2 from the “0-3 Conditions” options 
 		**0-3 Conditions:** 
 		You lash out at someone whose regard matters to you: provoke them to do some- thing foolish or harmful and take advantage of a String on them if you have one 
-		You hesitate or stumble and the opposition gains an opportunity aYou grin and bear the blow; mark two Conditions`,
+		You hesitate or stumble and the opposition gains an opportunity 
+		You grin and bear the blow; mark two Conditions`,
 	},
 	{
 		name: 'Entice',
