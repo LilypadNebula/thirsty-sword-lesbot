@@ -14,16 +14,14 @@ export default function Index() {
 					<ul className="space-y-2">
 						<li>Searching moves by name</li>
 						<li>Displaying details of a move in a channel</li>
+						<li>Viewing the Truths of Heart and Blade for a playbook</li>
 					</ul>
 				</div>
 				<div className="w-1/4">
 					<p className="mt-2 text-xl underline md:mt-0">Upcoming features</p>
 					<ul className="space-y-2">
 						<li>Viewing moves by playbook</li>
-						<li>
-							Viewing the relationship questions and Truths of Heart and Blade
-							for a playbook
-						</li>
+						<li>Viewing the relationship questions of playbooks</li>
 					</ul>
 				</div>
 			</div>
