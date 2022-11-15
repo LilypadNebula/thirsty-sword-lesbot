@@ -28,7 +28,7 @@ export default function Index() {
 				</div>
 			</div>
 			<a
-				href="http://discord.lesbot.gay"
+				href="https://discord.com/api/oauth2/authorize?client_id=869317492999331850&permissions=274878286912&scope=bot%20applications.commands"
 				target="_blank"
 				rel="noopener noreferrer"
 				className="mx-auto w-64 rounded border-4 border-white shadow-lg"

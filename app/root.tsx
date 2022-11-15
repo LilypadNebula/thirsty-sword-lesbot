@@ -30,6 +30,11 @@ export const meta: MetaFunction = () => ({
 	charset: 'utf-8',
 	title: 'Thirsty Sword Lesbot',
 	viewport: 'width=device-width,initial-scale=1',
+	'og:image': 'https://lesbot.gay/favicon.ico',
+	'og:type': 'website',
+	'og:url': 'https://lesbot.gay',
+	'og:title': 'Thirsty Sword Lesbot',
+	'og:description': 'A Discord bot for all your thirsty sword lesbian needs!',
 })
 
 export default function App() {
