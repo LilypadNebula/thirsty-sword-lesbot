@@ -2,9 +2,12 @@
 import { Client, Intents } from 'discord.js'
 import 'dotenv/config'
 import commands from '../app/commands'
+import privateCommands from '../app/commands/private'
 import components from '../app/components'
 
 const { token } = process.env
+
+const allCommands = { ...commands, ...privateCommands }
 
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] })
@@ -15,8 +18,9 @@ client.once('ready', () => {
 })
 
 client.on('interactionCreate', async (interaction) => {
+	console.log(interaction)
 	if (interaction.isCommand()) {
-		const command = commands[interaction.commandName]
+		const command = allCommands[interaction.commandName]
 		if (!command)
 			return await interaction.reply('No command with that name, sorry!')
 		try {

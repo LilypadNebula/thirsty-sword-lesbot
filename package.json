@@ -24,7 +24,8 @@
 		"test:e2e:run": "cross-env PORT=8811 start-server-and-test start:mocks http://localhost:8811 \"npx cypress run\"",
 		"typecheck": "tsc -b",
 		"validate": "run-p \"test -- --run\" lint typecheck test:e2e:run",
-		"deployCommands": "ts-node ./app/registerCommands.ts"
+		"deployCommands": "ts-node ./app/registerCommands.ts",
+		"deployPrivateCommands": "ts-node ./app/registerPrivateCommands.ts"
 	},
 	"eslintIgnore": [
 		"/node_modules",
