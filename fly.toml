@@ -10,6 +10,10 @@ auto_rollback = true
 [deploy]
   release_command = "npx prisma migrate deploy"
 
+[processes]
+site = 'npm run start:site'
+bot = 'npm run start:bot'
+
 [[services]]
 internal_port = 3000
 processes = [ "app" ]
